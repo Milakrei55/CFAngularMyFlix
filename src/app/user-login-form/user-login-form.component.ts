@@ -10,6 +10,10 @@ import { Router } from '@angular/router';
   templateUrl: './user-login-form.component.html',
   styleUrls: ['./user-login-form.component.scss']
 })
+/**
+ * Component for user login form.
+ */
+
 export class UserLoginFormComponent implements OnInit {
 
   @Input() userData = { Username: '', Password: '' };  // the decorator defines the component’s input.

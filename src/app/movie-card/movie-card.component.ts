@@ -11,6 +11,10 @@ import { MovieDetailsDialogComponent } from '../movie-details-dialog/movie-detai
   styleUrls: ['./movie-card.component.scss']
 })
 
+/**
+ * Component for movie card.
+ */
+
 export class MovieCardComponent {
   user: any = {};
   movies: any[] = [];

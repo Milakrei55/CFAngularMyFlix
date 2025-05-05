@@ -6,7 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 
+/**
+ * Component for app.
+ */
+
 export class AppComponent {
   title = 'myFlix_Angular-client';
-  
+
 }

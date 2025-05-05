@@ -13,6 +13,10 @@ import { MovieDetailsDialogComponent } from '../movie-details-dialog/movie-detai
   styleUrls: ['./user-profile.component.scss']
 })
 
+/**
+ * Component for user profile.
+ */
+
 export class UserProfileComponent implements OnInit{
   user: any = {};
   favoriteMovies: any[] = [];

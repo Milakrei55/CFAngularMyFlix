@@ -9,6 +9,10 @@ import { UserLoginFormComponent } from '../user-login-form/user-login-form.compo
   styleUrls: ['./welcome-page.component.scss']
 })
 
+/**
+ * Component for welcome page.
+ */
+
 export class WelcomePageComponent {
   backgroundImage = 'url(./assets/welcome-bgr-img.jpg)';
   constructor(public dialog: MatDialog) { }   // constructor is injecting the MatDialog service into an Angular component, allowing you to use this service to open dialogs and modals in your application.

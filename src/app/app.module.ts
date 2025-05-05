@@ -66,4 +66,8 @@ const appRoutes: Routes = [
   bootstrap: [AppComponent]
 })
 
+/**
+ * Main application module that declares and imports all components and services.
+ */
+
 export class AppModule { }

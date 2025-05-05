@@ -12,6 +12,10 @@ const apiUrl = 'https://milasmovieflix-ab66d5118b4d.herokuapp.com/';
 })
 
 // export class UserRegistrationService {
+/**
+ * Service for interacting with the backend API for movie and user-related operations.
+ */
+
 export class FetchApiDataService {
   // Inject the HttpClient module to the constructor params
  // This will provide HttpClient to the entire class, making it available via this.http
@@ -277,7 +281,6 @@ export class FetchApiDataService {
     );
   }
   
-
 
   // Non-typed response extraction
   // private extractResponseData(res: Response): any {

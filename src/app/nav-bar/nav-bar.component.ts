@@ -8,6 +8,10 @@ import { FetchApiDataService } from '../fetch-api-data.service';
   styleUrls: ['./nav-bar.component.scss']
 })
 
+/**
+ * Component for nav bar.
+ */
+
 export class NavBarComponent {
 
   constructor(
@@ -16,7 +20,7 @@ export class NavBarComponent {
   ) { }
 
   ngOnInit(): void { }
-  
+
 
   toProfile(): void {
     this.router.navigate(['profile']);
