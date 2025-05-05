@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;  
+}
+
+.profile-page {
+  background-color: blue; 
+  padding: 70px;
+}
+
+.form-field {
+  margin-right: 2px;
+}
+
+.movie-card-container {
+  display: flex; /* Arrange movie cards in a horizontal row */
+  gap: 10px; /* Add spacing between movie cards */
+//   white-space: nowrap; /* Prevent wrapping of movie cards to the next line */
+  overflow-x: auto; /* Enable scrolling for the container */
+//   max-width: 100%; /* Allow the container to take the full width */
+}
+
+.movie-card {
+  flex: 0 0 250px; /* Set a fixed width for each card (adjust the width as needed) */
+}
